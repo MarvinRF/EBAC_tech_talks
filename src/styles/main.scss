@@ -1,11 +1,16 @@
+@use 'variaveis';
 @use 'hero';
+@use 'infos_bar';
+@use 'event';
+@use 'buttons';
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: Roboto, sans-serif;
-  color: #fff;
+  color: variaveis.$textColor;
+  list-style: none;
 }
 
 .container {
