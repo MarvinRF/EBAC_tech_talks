@@ -1,7 +1,6 @@
 {
   "name": "ebac_talks",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "parcel src/index.html src/styles/main.scss src/scripts/main.js",
@@ -14,5 +13,9 @@
     "@parcel/transformer-sass": "^2.9.3",
     "parcel": "^2.9.3",
     "sharp": "^0.31.3"
+  },
+  "description": "",
+  "dependencies": {
+    "path": "^0.12.7"
   }
 }
